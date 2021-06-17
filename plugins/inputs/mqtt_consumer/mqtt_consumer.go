@@ -293,6 +293,7 @@ func (m *MQTTConsumer) onMessage(acc telegraf.TrackingAccumulator, msg mqtt.Mess
 				metric.AddTag("env", environment)
 				metric.AddTag("drone", droneName)
 			}
+			m.Log.Debugf("env %v drone %v", environment, droneName)
 		}
 	}
 
