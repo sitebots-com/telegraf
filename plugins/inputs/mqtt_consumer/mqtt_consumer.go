@@ -286,16 +286,15 @@ func (m *MQTTConsumer) onMessage(acc telegraf.TrackingAccumulator, msg mqtt.Mess
 
 	if m.topicTag != "" {
 		split := strings.Split(msg.Topic(), "/")
-		if len(split) > 7 {
+		if len(split) > 5 {
 			environment := split[1]
 			droneName := split[4]
-			topic := strings.Join(split[6:], "/")
+			topic := strings.Join(split[5:], "/")
 			for _, metric := range metrics {
 				metric.AddTag(m.topicTag, topic)
 				metric.AddTag("env", environment)
 				metric.AddTag("drone", droneName)
 			}
-			m.Log.Debugf("env %v drone %v", environment, droneName)
 		}
 	}
 
