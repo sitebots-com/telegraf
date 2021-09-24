@@ -1447,6 +1447,8 @@ github.com/segmentio/kafka-go v0.1.0/go.mod h1:X6itGqS9L4jDletMsxZ7Dz+JFWxM6JHfP
 github.com/segmentio/kafka-go v0.2.0/go.mod h1:X6itGqS9L4jDletMsxZ7Dz+JFWxM6JHfPOCvTvk+EJo=
 github.com/sensu/sensu-go/api/core/v2 v2.9.0 h1:NanHMIWbrHP/L4Ge0V1x2+0G9bxFHpvhwjdr3wSF9Vg=
 github.com/sensu/sensu-go/api/core/v2 v2.9.0/go.mod h1:QcgxKxydmScE66hLBTzbFhhiPSR/JHqUjNi/+Lelh6E=
+github.com/sensu/sensu-go/api/core/v2 v2.11.0 h1:GYn2PXE8mOc1b3iGOoD4QmQnnosj/I7GkjD3Mw1uU0c=
+github.com/sensu/sensu-go/api/core/v2 v2.11.0/go.mod h1:urUHDTHcyYqM2XK5mXMF3JdeiOjXCKhwW+z8fXNsZfs=
 github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
 github.com/shirou/gopsutil v2.18.10+incompatible/go.mod h1:5b4v6he4MtMOwMlS0TUMTu2PcXUg8+E1lC7eC3UO/RA=
 github.com/shirou/gopsutil v3.21.8+incompatible h1:sh0foI8tMRlCidUJR+KzqWYWxrkuuPIGiO6Vp+KXdCU=
