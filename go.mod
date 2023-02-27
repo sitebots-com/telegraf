@@ -28,7 +28,7 @@ require (
 	github.com/antchfx/jsonquery v1.1.4
 	github.com/antchfx/xmlquery v1.3.5
 	github.com/antchfx/xpath v1.1.11
-	github.com/apache/thrift v0.13.0
+	github.com/apache/thrift v0.18.0
 	github.com/aristanetworks/glog v0.0.0-20191112221043-67e8567f59f3 // indirect
 	github.com/aristanetworks/goarista v0.0.0-20190325233358-a123909ec740
 	github.com/aws/aws-sdk-go v1.38.69
